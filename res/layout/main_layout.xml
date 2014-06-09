@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="#A0DD0A"
+        android:text="@string/app_name" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ButtonMatchSchedule"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="0.98"
+            android:background="#FF0000"
+            android:onClick="onclickMatchSchedule"
+            android:text="@string/match_schedule" />
+
+        <Button
+            android:id="@+id/TextView2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="0.98"
+            android:background="#00FF00"
+            android:text="@string/news" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/TextView3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="0.98"
+            android:background="#FF0000"
+            android:onClick="click"
+            android:text="@string/all_group" />
+
+        <Button
+            android:id="@+id/TextView4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="0.98"
+            android:background="#00FF00"
+            android:text="@string/round" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/TextView5"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_margin="1dp"
+            android:layout_weight="0.98"
+            android:background="#FF0000"
+            android:onClick="click"
+            android:text="@string/facebook" />
+
+        <Button
+            android:id="@+id/TextView6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="0.98"
+            android:background="#00FF00"
+            android:text="@string/exit" />
+    </LinearLayout>
+
+</LinearLayout>
